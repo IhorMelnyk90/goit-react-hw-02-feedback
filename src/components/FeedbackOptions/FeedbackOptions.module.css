@@ -1,0 +1,35 @@
+.feedbackControls {
+    margin-bottom: 50px;
+}
+
+.feedbackControls__container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.feedbackControls__button {
+    background-color: rgb(147, 226, 43);
+    font-size: 12px;
+    font-weight: 600;
+    height: 20px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.feedbackControls__button:hover {
+    background: rgb(244, 248, 27);
+    color: rgb(27, 75, 177);
+    font-size: 14px;
+    transform: scale(1.2);
+    text-align: center;
+    border: 0; 
+    
+}
+
+.feedbackControls__button:not(:last-child) {
+    margin-right: 10px;
+}

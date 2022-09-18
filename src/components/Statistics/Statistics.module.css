@@ -1,0 +1,10 @@
+.feedbackStatistics__list {
+    font-size: 12px;
+    font-weight: 500;    
+    
+}
+
+.feedbackStatistics__li {
+    display: flex;
+    justify-content:space-around;
+}
