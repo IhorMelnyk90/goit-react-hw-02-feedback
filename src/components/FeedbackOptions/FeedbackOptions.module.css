@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+.feedbackControls__li:not(:last-child) {
+    margin-right: 10px;
+}
+
 .feedbackControls__button {
     background-color: rgb(147, 226, 43);
     font-size: 12px;
@@ -26,10 +30,5 @@
     font-size: 14px;
     transform: scale(1.2);
     text-align: center;
-    border: 0; 
-    
-}
-
-.feedbackControls__button:not(:last-child) {
-    margin-right: 10px;
+    border: 0;    
 }
